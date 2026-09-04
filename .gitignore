@@ -1,0 +1,29 @@
+# 签名密钥（含敏感凭据，切勿提交）
+*.jks
+*.keystore
+
+# Gradle 编译产物与缓存
+.gradle/
+.kotlin/
+build/
+**/build/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# 本机环境
+local.properties
+captures/
+
+# 系统文件
+.DS_Store
+
+# 工作记录（含本机路径/密钥信息，仅本地使用）
+.workbuddy/
+
+# APK/AAB 产物
+*.apk
+*.aab
+*.ap_
